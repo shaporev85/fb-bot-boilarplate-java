@@ -26,7 +26,7 @@ public class Main {
 
     static {
         JSON = MediaType.parse("application/json; charset=utf-8");
-        END_POINT = "https://graph.facebook.com/v2.6/me/messages";
+        END_POINT = "https://graph.facebook.com/v2.8/me/messages";
         GSON = new Gson();
         sRandom = new Random();
         sAccessToken = System.getenv("ACCESS_TOKEN");
